@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "FirefoxUtil",
+    "version": "1.0",
+
+    "description": "FirefoxUtil",
+
+    "icons": {
+        "36": "icon.svg",
+        "48": "icon.svg",
+        "96": "icon.svg"
+    },
+
+    "permissions": ["alarms", "tabs", "activeTab", "clipboardWrite"],
+
+    "page_action": {
+        "default_icon": {
+            "36": "icon.svg",
+            "48": "icon.svg",
+            "96": "icon.svg"
+        },
+        "default_title": "CopyURL"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
